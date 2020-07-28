@@ -11,6 +11,10 @@ a {
     text-decoration: none;
 }
 
+ol {
+    list-style-type: none;
+}
+
 img {
     max-width: 100%;
 }
@@ -153,4 +157,139 @@ nav a {
     .col-12 {
         width: 100%;
     }
+}
+
+.head1 {
+    font-size: 1.5rem;
+    margin-left: 30rem;
+    margin-top: 90px;
+}
+
+.p1 {
+    font-size: 1rem;
+    margin-left: 30rem;
+    margin-top: 10px;
+}
+
+.head2 {
+    font-size: 1.5rem;
+    margin-left: 30rem;
+    margin-top: 90px;
+}
+
+.p2 {
+    font-size: 1rem;
+    margin-left: 30rem;
+    margin-top: 10px;
+}
+
+.head3 {
+    font-size: 1.5rem;
+    margin-left: 30rem;
+    margin-top: 90px;
+}
+
+.p3 {
+    font-size: 1rem;
+    margin-left: 30rem;
+    margin-top: 10px;
+}
+
+#video {
+    display: block;
+    margin: 0 auto 5rem;
+}
+
+
+/* img.class1 {
+    margin-left: 10rem;
+    margin-right: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    width: 20vw;
+    color: darkorange;
+} */
+
+#features {
+    max-width: 1000px;
+    width: 100%;
+    margin: 5rem auto;
+}
+
+.cards {
+    display: flex;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    color: darkorange;
+    font-size: 3em;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
+}
+
+#pricing {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.price-container {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-gap: 15px;
+    margin: 0 auto;
+}
+
+.price-card {
+    border-radius: 3px;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.level {
+    background-color: #ddd;
+    padding: 15px 0;
+}
+
+.price-card h2 {
+    margin-top: 30px;
+    display: block;
+    font-size: 1.5rem;
+}
+
+ol {
+    margin-top: 15px;
+}
+
+ol li {
+    padding: 10px 0;
+}
+
+.price-card button {
+    border: none;
+    background-color: #f1c40f;
+    margin: 15px 0;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.price-card button:focus {
+    outline: none;
 }
