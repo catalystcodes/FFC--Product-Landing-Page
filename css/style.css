@@ -294,3 +294,19 @@ ol li {
 .price-card button:focus {
     outline: none;
 }
+
+footer {
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+    width: 753;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.links {
+    padding: 0 0 1rem;
+}
