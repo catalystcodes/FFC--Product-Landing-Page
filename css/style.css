@@ -70,6 +70,7 @@ nav a {
     background-color: #f1c40f;
     font-weight: 800;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 
