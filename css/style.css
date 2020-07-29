@@ -54,6 +54,11 @@ nav a {
     margin-bottom: 20px;
 }
 
+h2 {
+    display: block;
+    font-size: 1.5em;
+}
+
 .input-field {
     padding: 5px;
     width: 100%;
@@ -61,7 +66,8 @@ nav a {
     font-size: 14px;
 }
 
-.submit {
+
+/* .submit {
     max-width: 150px;
     margin: 15px 0;
     width: 100%;
@@ -71,7 +77,7 @@ nav a {
     font-weight: 800;
     text-transform: uppercase;
     cursor: pointer;
-}
+} */
 
 
 /* For mobile phones: */
@@ -201,18 +207,6 @@ nav a {
     margin: 0 auto 5rem;
 }
 
-
-/* img.class1 {
-    margin-left: 10rem;
-    margin-right: 30rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 90px;
-    width: 20vw;
-    color: darkorange;
-} */
-
 #features {
     max-width: 1000px;
     width: 100%;
@@ -309,4 +303,17 @@ footer {
 
 .links {
     padding: 0 0 1rem;
+}
+
+#submit {
+    max-width: 150px;
+    margin: 15px 0;
+    width: 100%;
+    height: 30px;
+    border: none;
+    background-color: #f1c40f;
+    font-weight: bolder;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 1em;
 }
